@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Shalimar&display=swap');
+body {
+  width: 100vw;
+  height: 95vh;
+  background-image: url("../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 3vw;
+  color: #9499c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-left: 15vw;
+}
+.leftBar {
+  margin-top: 8vh;
+  margin-left: 3vw;
+}
+.dad {
+  width: 19vw;
+  height: 8vh;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigTitle {
+  color: #9499c3;
+  font-size: 1.1vw;
+}
+.bigTitle:hover {
+  color: #fff;
+  font-size: 1.1vw;
+}
+.littleTitle {
+  margin-top: 0.5vh;
+}
+.littleTitle:hover {
+  color: #fff;
+}
+.switchButton {
+  margin-top: 4vh;
+  margin-left: 3vw;
+}
+.black {
+  background-color: transparent;
+  border-radius: 8px;
+  background-color: rgba(26, 28, 72, 0.01);
+  border: 1.5px solid rgba(148, 153, 195, 0.5);
+  width: 8vw;
+  height: 5.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1vw;
+}
+.white {
+  background-color: white;
+  border: 1.5px solid #fff;
+  color: #1a1c48;
+  border-radius: 10px;
+  width: 10vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+}
+.newtitle {
+  font-size: 2.6vw;
+  color: #9499c3;
+  /* margin-left: 2vw; */
+}
+.grandfather {
+  width: 60vw;
+  height: 64.5vh;
+  margin-top: 25vh;
+  margin-left: 8vw;
+}
+.chooseButton {
+  margin-top: 2vh;
+  width: 10vw;
+  height: 4vh;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+  font-size: 1vw;
+  color: #4b87fb;
+}
+.imgbutton {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.ultraDad {
+  width: 71vw;
+  height: 86.5vh;
+  margin-top: 2vh;
+  margin-left: 6vw;
+}
+.haruhaan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 190px;
+  margin-left: 2vw;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+.border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 151px;
+  border-radius: 50%;
+  border: 1px dashed #f3f4f9;
+}
+.turul {
+  color: #fff;
+  font-size: 0.7vw;
+}
+.dessDad{
+  width: 50vw;
+  height: 20vh;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.lds-ellipsis {
+  margin-top: 25vh;
+margin-left: 30vw;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
